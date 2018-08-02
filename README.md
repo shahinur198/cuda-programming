@@ -59,8 +59,6 @@ pip3 install minpy
 Test:
 ```
 import minpy.numpy as np
-# pip install minpy
-# pip install mxnet
 import minpy.numpy.random as random
 from minpy.context import cpu, gpu
 import time
