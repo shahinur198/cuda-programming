@@ -33,6 +33,9 @@ Supported variants:
     mxnet-cu92mkl on Windows and Linux, supports CUDA-9.2 and MKLDNN support.
 
 ```
+MXNet Tutorial:
+
+http://mxnet.incubator.apache.org/tutorials/index.html
 
 # Installing minpy on Ubuntu
 https://pypi.org/project/minpy/
