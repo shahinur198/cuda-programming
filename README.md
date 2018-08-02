@@ -37,5 +37,9 @@ MXNet Tutorial:
 
 http://mxnet.incubator.apache.org/tutorials/index.html
 
+MXNet with OpenCv:
+
+https://www.pyimagesearch.com/2017/11/13/how-to-install-mxnet-for-deep-learning/
+
 # Installing minpy on Ubuntu
 https://pypi.org/project/minpy/
