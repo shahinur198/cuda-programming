@@ -1,3 +1,33 @@
+# cuda 9.0 installation
+https://developer.nvidia.com/cuda-90-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=deblocal
+
+nstallation Instructions:
+```
+    sudo dpkg -i cuda-repo-ubuntu1604-9-0-local_9.0.176-1_amd64.deb
+    sudo apt-key add /var/cuda-repo-<version>/7fa2af80.pub
+    sudo apt-get update
+    sudo apt-get install cuda
+
+```
+# cudnn install 
+https://developer.nvidia.com/rdp/cudnn-download
+
+```
+    Navigate to your <cudnnpath> directory containing cuDNN Debian file.
+    Install the runtime library, for example:
+
+    sudo dpkg -i libcudnn7_7.0.3.11-1+cuda9.0_amd64.deb
+
+    Install the developer library, for example:
+
+    sudo dpkg -i libcudnn7-dev_7.0.3.11-1+cuda9.0_amd64.deb
+
+    Install the code samples and the cuDNN Library User Guide, for example:
+
+    sudo dpkg -i libcudnn7-doc_7.0.3.11-1+cuda9.0_amd64.deb
+
+```
+
 # cuda-programming
 
 
