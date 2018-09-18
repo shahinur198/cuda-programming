@@ -21,6 +21,14 @@ export PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64\
                          ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 ```
+# cuda verification
+```
+$ cd /usr/local/cuda-9.0/samples
+$ sudo make
+
+$ cd /usr/local/cuda/samples/bin/x86_64/linux/release
+$ ./deviceQuery
+```
 nvcc --version
 # cudnn install 
 https://developer.nvidia.com/rdp/cudnn-download
@@ -40,6 +48,7 @@ https://developer.nvidia.com/rdp/cudnn-download
     sudo dpkg -i libcudnn7-doc_7.0.3.11-1+cuda9.0_amd64.deb
 
 ```
+https://medium.com/@zhanwenchen/install-cuda-and-cudnn-for-tensorflow-gpu-on-ubuntu-79306e4ac04e
 
 # cuda-programming
 
