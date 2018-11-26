@@ -22,7 +22,7 @@ export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64\
                          ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 ```
 # set environment variables
-``
+```
 export PATH=${PATH}:/usr/local/cuda-9.0/bin
 export CUDA_HOME=${CUDA_HOME}:/usr/local/cuda:/usr/local/cuda-9.0
 export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/cuda-9.0/lib64
