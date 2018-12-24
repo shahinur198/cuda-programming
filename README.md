@@ -29,7 +29,12 @@ export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/cuda-9.0/lib64
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/extras/CUPTI/lib64
 sudo nano /etc/environment
 ```
-
+# how to set environment variables
+```
+nano .profile
+nano .bashrc
+sudo nano /etc/environment
+```
 # cuda verification
 ```
 $ cd /usr/local/cuda-9.0/samples
