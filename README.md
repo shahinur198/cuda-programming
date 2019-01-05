@@ -65,6 +65,12 @@ https://developer.nvidia.com/rdp/cudnn-download
 ```
 https://medium.com/@zhanwenchen/install-cuda-and-cudnn-for-tensorflow-gpu-on-ubuntu-79306e4ac04e
 
+# gpu view
+```
+pip3 install gpustat
+gpustat -cp
+
+```
 # cuda-programming
 
 
