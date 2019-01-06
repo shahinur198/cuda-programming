@@ -83,6 +83,12 @@ https://developer.nvidia.com/rdp/cudnn-download
     sudo dpkg -i libcudnn7-doc_7.0.3.11-1+cuda9.0_amd64.deb
 
 ```
+To check installation of CuDNN, run below command, if CuDNN is installed properly then you will not get any error.
+```
+function lib_installed() { /sbin/ldconfig -N -v $(sed 's/:/ /' <<< $LD_LIBRARY_PATH) 2>/dev/null | grep $1; }
+function check() { lib_installed $1 && echo "$1 is installed" || echo "ERROR: $1 is NOT installed"; }
+check libcudnn 
+```
 https://medium.com/@zhanwenchen/install-cuda-and-cudnn-for-tensorflow-gpu-on-ubuntu-79306e4ac04e
 
 # gpu view
