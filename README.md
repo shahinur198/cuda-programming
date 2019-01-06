@@ -3,9 +3,24 @@ nvidia driver install and check
 ```
 nvidia-settings
 ```
+https://developer.nvidia.com/cuda-80-ga2-download-archive
+https://www.youtube.com/watch?v=8Xy1Uqq9Hbk
 # cuda 9.0 installation
 https://developer.nvidia.com/cuda-90-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=deblocal
+```
+ used method in this post: cuda-sample-build-error. I think you just need substitute the correct gpu driver version in UBUNTU_PKG_NAME = "nvidia-375", which you can find at
 
+    .../NVIDIA_CUDA-8.0_Samples/3_Imaging/cudaDecodeGL/findgllib.mk file
+
+```
+path set
+
+```
+nano .bashrc
+export PATH=/usr/local/cuda-8.0/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64\
+                         ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+```
 nstallation Instructions:
 ```
     sudo dpkg -i cuda-repo-ubuntu1604-9-0-local_9.0.176-1_amd64.deb
