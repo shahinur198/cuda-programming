@@ -1,4 +1,8 @@
 https://en.wikipedia.org/wiki/CUDA
+nvidia driver install and check
+```
+nvidia-settings
+```
 # cuda 9.0 installation
 https://developer.nvidia.com/cuda-90-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=deblocal
 
