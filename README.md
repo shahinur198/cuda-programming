@@ -85,11 +85,30 @@ https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html
     sudo dpkg -i libcudnn7-doc_7.0.3.11-1+cuda9.0_amd64.deb
 
 ```
-To check installation of CuDNN, run below command, if CuDNN is installed properly then you will not get any error.
+# Verifying cuDNN
+
+To verify that cuDNN is installed and is running properly, compile the mnistCUDNN sample located in the /usr/src/cudnn_samples_v7 directory in the debian file.
 ```
-function lib_installed() { /sbin/ldconfig -N -v $(sed 's/:/ /' <<< $LD_LIBRARY_PATH) 2>/dev/null | grep $1; }
-function check() { lib_installed $1 && echo "$1 is installed" || echo "ERROR: $1 is NOT installed"; }
-check libcudnn 
+    Copy the cuDNN sample to a writable path.
+
+    $ cp -r /usr/src/cudnn_samples_v7/ $HOME
+
+    Go to the writable path.
+
+    $ cd  $HOME/cudnn_samples_v7/mnistCUDNN
+
+    Compile the mnistCUDNN sample.
+
+    $ make clean && make
+
+    Run the mnistCUDNN sample.
+
+    $ ./mnistCUDNN
+
+    If cuDNN is properly installed and running on your Linux system, you will see a message similar to the following:
+
+    Test passed!
+
 ```
 https://medium.com/@zhanwenchen/install-cuda-and-cudnn-for-tensorflow-gpu-on-ubuntu-79306e4ac04e
 
