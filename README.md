@@ -1,4 +1,6 @@
 https://en.wikipedia.org/wiki/CUDA
+https://developer.nvidia.com/cuda-gpus
+https://docs.nvidia.com/deeplearning/sdk/cudnn-support-matrix/index.html
 nvidia driver install and check
 ```
 nvidia-settings
@@ -67,7 +69,7 @@ $ ./deviceQuery
 nvcc --version
 # cudnn install 
 https://developer.nvidia.com/rdp/cudnn-download
-
+https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html
 ```
     Navigate to your <cudnnpath> directory containing cuDNN Debian file.
     Install the runtime library, for example:
