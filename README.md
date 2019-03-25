@@ -1,6 +1,9 @@
 https://en.wikipedia.org/wiki/CUDA
+
 https://developer.nvidia.com/cuda-gpus
+
 https://docs.nvidia.com/deeplearning/sdk/cudnn-support-matrix/index.html
+
 nvidia driver install and check
 ```
 nvidia-settings
@@ -217,3 +220,5 @@ run on cpu: 0.011208 s/iter
 run on gpu: 0.001077 s/iter
 
 ```
+# Tensorrt install-guide
+https://docs.nvidia.com/deeplearning/sdk/tensorrt-install-guide/index.html
