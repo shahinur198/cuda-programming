@@ -54,6 +54,11 @@ export CUDA_HOME=${CUDA_HOME}:/usr/local/cuda:/usr/local/cuda-9.0
 export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/cuda-9.0/lib64
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/extras/CUPTI/lib64
 
+for permanent
+go to sudo nano /etc/environment
+and add
+:/snap/bin:/usr/local/cuda-9.0/bin
+
 ```
 # how to set environment variables
 ```
