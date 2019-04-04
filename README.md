@@ -4,6 +4,8 @@ https://developer.nvidia.com/cuda-gpus
 
 https://docs.nvidia.com/deeplearning/sdk/cudnn-support-matrix/index.html
 
+https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/
+
 nvidia driver install and check
 ```
 nvidia-settings
