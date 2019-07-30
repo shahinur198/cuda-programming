@@ -234,3 +234,11 @@ run on gpu: 0.001077 s/iter
 ```
 # Tensorrt install-guide
 https://docs.nvidia.com/deeplearning/sdk/tensorrt-install-guide/index.html
+
+# warning guide
+```
+/home/nybsys/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:34: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.   from ._conv import register_converters as _register_converters
+```
+```
+pip3 install --upgrade --pre h5py
+```
