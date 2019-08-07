@@ -242,3 +242,6 @@ https://docs.nvidia.com/deeplearning/sdk/tensorrt-install-guide/index.html
 ```
 pip3 install --upgrade --pre h5py
 ```
+
+https://www.youtube.com/watch?v=LJvBhmuPNg8
+https://www.youtube.com/watch?v=-e4BvZz6H8Q
