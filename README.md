@@ -6,6 +6,10 @@ https://docs.nvidia.com/deeplearning/sdk/cudnn-support-matrix/index.html
 
 https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/
 
+https://www.youtube.com/watch?v=LJvBhmuPNg8
+https://www.youtube.com/watch?v=-e4BvZz6H8Q
+https://graphicscardhub.com/nvidia-sli/
+
 nvidia driver install and check
 ```
 nvidia-settings
@@ -243,5 +247,3 @@ https://docs.nvidia.com/deeplearning/sdk/tensorrt-install-guide/index.html
 pip3 install --upgrade --pre h5py
 ```
 
-https://www.youtube.com/watch?v=LJvBhmuPNg8
-https://www.youtube.com/watch?v=-e4BvZz6H8Q
