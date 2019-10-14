@@ -86,6 +86,13 @@ $ cd /usr/local/cuda/samples/bin/x86_64/linux/release
 $ ./deviceQuery
 ```
 nvcc --version
+# cuda uninstall
+```
+sudo apt-get purge nvidia*
+sudo apt-get autoremove
+sudo apt-get autoclean
+sudo rm -rf /usr/local/cuda-10.0
+```
 # cudnn install 
 https://developer.nvidia.com/rdp/cudnn-download
 https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html
