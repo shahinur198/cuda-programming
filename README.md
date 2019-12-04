@@ -65,9 +65,9 @@ go to
 sudo nano /etc/environment
 and add
 
-PATH=${PATH}:/usr/local/cuda-9.0/bin
-CUDA_HOME=${CUDA_HOME}:/usr/local/cuda:/usr/local/cuda-9.0
-LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/cuda-9.0/lib64
+PATH=${PATH}:/usr/local/cuda-10.0/bin
+CUDA_HOME=${CUDA_HOME}:/usr/local/cuda:/usr/local/cuda-10.0
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/cuda-10.0/lib64
 LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/extras/CUPTI/lib64
 
 ```
